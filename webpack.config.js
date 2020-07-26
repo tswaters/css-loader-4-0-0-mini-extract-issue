@@ -33,18 +33,15 @@ module.exports = (env, argv) => {
             {
               loader: MiniCssExtractPlugin.loader,
               options: {
-                esModule: true,
+                esModule: false,
               },
             },
             {
               loader: "css-loader",
               options: {
                 sourceMap: true,
-                esModule: true,
-                modules: {
-                  namedExport: true,
-                  exportLocalsConvention: "camelCaseOnly",
-                },
+                localsConvention: "camelCase",
+                modules: true,
               },
             },
           ],

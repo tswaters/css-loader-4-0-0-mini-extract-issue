@@ -94,6 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
+module.exports = {"some-class":"_2d3z1iJ92ijcZs5ix9urV2","someClass":"_2d3z1iJ92ijcZs5ix9urV2"};
 
 /***/ }),
 
